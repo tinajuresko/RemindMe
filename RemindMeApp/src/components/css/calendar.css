@@ -1,0 +1,53 @@
+.calendar-container {
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    overflow-y: auto; 
+  }
+  
+  .calendar {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    max-height: 100%; /* Povećajte ili smanjite prema potrebi */
+    overflow-y: auto;
+  }
+
+  .calendarTitle{
+    font-family:'Poppins';
+    color: rgb(109, 26, 120);
+    margin-top: 50px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #9760b5;
+    padding: 20px;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .navbar ul li {
+    margin-bottom: 25px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #E040FB;
+  }
+  
+
+ 
+  

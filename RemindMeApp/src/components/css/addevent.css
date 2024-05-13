@@ -1,0 +1,108 @@
+.body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+    min-height: calc(100vh + 20px);
+    min-width: min(100vw, 960px);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction:row; /* Postavlja raspored elemenata u kolonu */
+    align-items: flex-start;
+    /*justify-content: flex-start; /* Centriranje po horizontalnoj osi */
+    /*align-items: center; /* Centriranje po vertikalnoj osi */
+    height: 100vh; /* Punjenje visine ekrana */
+}
+.content {
+  display: flex;
+  justify-content: center; /* Poravnava sadržaj u sredinu po horizontali */
+  flex-grow: 1; /* Rastezanje sadržaja kako bi popunio dostupan prostor */
+  align-items: center; /* Poravnava sadržaj u sredinu po vertikali */
+}
+
+.main, .main2 {
+    background-color: #FFFFFF;
+    width: 80%; /* Širina forme */
+    max-width: 400px; /* Maksimalna širina forme */
+    padding: 2em; /* Razmak unutar forme */
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    margin-top: 6vh; /* Razmak između vrha ekrana i forme */
+}
+
+
+.addEvent{
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    
+}
+
+.title, .description, .time, .date, .people, .notification-interval, .notification-repeat, select {
+    width: 100%; /* Puno širine za unose */
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding: 10px 0; /* Horizontalno centriranje gumba */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    width: 100%; /* Puno širine za gumb */
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    margin-bottom: 15px;
+}
+
+label, select{
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color: #8C55AA;
+}
+
+
+.react-datepicker__day--highlighted{
+    background-color: #e4bce8 !important;
+    color: #e4bce8;
+}
+.react-datepicker__input-container{
+    color:  #9a969b;
+}
+
+.main2{
+    margin-left: 17px;
+}
+
+.main{
+    margin-left: 50px;
+}
+
+
+  
+  

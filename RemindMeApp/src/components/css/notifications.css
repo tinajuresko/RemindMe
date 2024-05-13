@@ -1,0 +1,63 @@
+/*css za notifikacije*/
+.notification-list {
+    margin: 50px auto; /* Centriranje */
+    width: 80%; /* Širina containera */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Bijela pozadina */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sjenčanje */
+  }
+  
+  .notification-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-card {
+    margin-bottom: 20px; /* Razmak između notifikacija */
+    padding: 20px;
+    background-color: white; /* Bijela pozadina */
+    border-radius: 10px; /* Zaobljeni rubovi */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Blagi sjaj */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .notification-card p {
+    margin: 0;
+  }
+
+  .delete-button {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Crvena boja za gumb za brisanje */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Zaobljeni rubovi */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Osjenčani rubovi */
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Tamnija nijansa crvene boje na hover */
+}
+
+.pagination button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #942cae;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Dodavanje sjene */
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #7b2189; /* Promjena boje prilikom prelaska mišem */
+}
